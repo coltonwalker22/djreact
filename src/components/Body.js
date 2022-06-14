@@ -59,7 +59,7 @@ function setMakeNoise(){
     return(  
     <div className="body-container">
         <div className="image-container">
-            <img className="DJimage" src="http://localhost:3000//DJ.jpg" alt="dix" />
+            <img className="DJimage" src="images/DJ.jpg" alt="dix" />
         </div>
         <div className="square-container">
             {colors.map((color, i) => <Square key={i} color={color} />)}
