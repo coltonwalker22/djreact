@@ -1,0 +1,100 @@
+body{
+    display: grid;
+    margin-bottom: 40px;
+    background-color: rgb(177, 11, 177);
+}
+
+/* .image-container{
+
+} */
+
+.DJimage{
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 700p
+}
+
+
+.square-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 0px;
+
+    
+}
+.square {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.button-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 0px;
+}
+
+.button-small{
+    padding: 20px 100px;
+    font-family:'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.button-party{
+    padding: 20px 100px;
+    font-family:'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.button-left-blue{
+    padding: 20px 100px;
+    font-family:'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.button-right-blue{
+    padding: 20px 100px;
+    font-family:'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.button-big-one{
+    padding: 20px 100px;
+    font-family:'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.button-big-two{
+    padding: 20px 100px;
+    font-family:'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.button-big-three{
+    padding: 20px 100px;
+    font-family:'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.button-big-four{
+    padding: 20px 100px;
+    font-family:'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.button-make-noise{
+    padding: 20px 100px;
+    font-family:'Press Start 2P', cursive;
+    font-size: 20px;
+}
